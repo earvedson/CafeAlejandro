@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50AEF4B2B189B0E002A1C36 /* MoodSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50AEF4A2B189B0E002A1C36 /* MoodSelectorView.swift */; };
+		E50AEF5B2B18F7CF002A1C36 /* SwiftySlack in Frameworks */ = {isa = PBXBuildFile; productRef = E50AEF5A2B18F7CF002A1C36 /* SwiftySlack */; };
 		E54297532B14B0F900ABBFD3 /* CafeAlejandroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54297522B14B0F900ABBFD3 /* CafeAlejandroApp.swift */; };
 		E54297552B14B0F900ABBFD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54297542B14B0F900ABBFD3 /* ContentView.swift */; };
 		E54297572B14B0FB00ABBFD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54297562B14B0FB00ABBFD3 /* Assets.xcassets */; };
 		E542975A2B14B0FB00ABBFD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54297592B14B0FB00ABBFD3 /* Preview Assets.xcassets */; };
+		E54297612B14F63500ABBFD3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54297602B14F63500ABBFD3 /* CircleImage.swift */; };
+		E54297632B15F66200ABBFD3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54297622B15F66100ABBFD3 /* MapView.swift */; };
+		E54297652B162BC200ABBFD3 /* AssortmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54297642B162BC200ABBFD3 /* AssortmentView.swift */; };
+		E54297672B16423B00ABBFD3 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54297662B16423B00ABBFD3 /* BackgroundView.swift */; };
+		E54297692B16462700ABBFD3 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54297682B16462700ABBFD3 /* NavigationView.swift */; };
+		E542976B2B1659A500ABBFD3 /* MemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542976A2B1659A500ABBFD3 /* MemberView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E50AEF4A2B189B0E002A1C36 /* MoodSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSelectorView.swift; sourceTree = "<group>"; };
 		E542974F2B14B0F900ABBFD3 /* CafeAlejandro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeAlejandro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54297522B14B0F900ABBFD3 /* CafeAlejandroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeAlejandroApp.swift; sourceTree = "<group>"; };
 		E54297542B14B0F900ABBFD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E54297562B14B0FB00ABBFD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E54297592B14B0FB00ABBFD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E54297602B14F63500ABBFD3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		E54297622B15F66100ABBFD3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E54297642B162BC200ABBFD3 /* AssortmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssortmentView.swift; sourceTree = "<group>"; };
+		E54297662B16423B00ABBFD3 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		E54297682B16462700ABBFD3 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		E542976A2B1659A500ABBFD3 /* MemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E50AEF5B2B18F7CF002A1C36 /* SwiftySlack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +69,13 @@
 			children = (
 				E54297522B14B0F900ABBFD3 /* CafeAlejandroApp.swift */,
 				E54297542B14B0F900ABBFD3 /* ContentView.swift */,
+				E54297682B16462700ABBFD3 /* NavigationView.swift */,
+				E50AEF4A2B189B0E002A1C36 /* MoodSelectorView.swift */,
+				E54297642B162BC200ABBFD3 /* AssortmentView.swift */,
+				E542976A2B1659A500ABBFD3 /* MemberView.swift */,
+				E54297662B16423B00ABBFD3 /* BackgroundView.swift */,
+				E54297622B15F66100ABBFD3 /* MapView.swift */,
+				E54297602B14F63500ABBFD3 /* CircleImage.swift */,
 				E54297562B14B0FB00ABBFD3 /* Assets.xcassets */,
 				E54297582B14B0FB00ABBFD3 /* Preview Content */,
 			);
@@ -83,6 +106,9 @@
 			dependencies = (
 			);
 			name = CafeAlejandro;
+			packageProductDependencies = (
+				E50AEF5A2B18F7CF002A1C36 /* SwiftySlack */,
+			);
 			productName = CafeAlejandro;
 			productReference = E542974F2B14B0F900ABBFD3 /* CafeAlejandro.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,9 @@
 				Base,
 			);
 			mainGroup = E54297462B14B0F900ABBFD3;
+			packageReferences = (
+				E50AEF592B18F7CF002A1C36 /* XCRemoteSwiftPackageReference "SwiftySlack" */,
+			);
 			productRefGroup = E54297502B14B0F900ABBFD3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54297692B16462700ABBFD3 /* NavigationView.swift in Sources */,
+				E54297672B16423B00ABBFD3 /* BackgroundView.swift in Sources */,
 				E54297552B14B0F900ABBFD3 /* ContentView.swift in Sources */,
+				E54297632B15F66200ABBFD3 /* MapView.swift in Sources */,
 				E54297532B14B0F900ABBFD3 /* CafeAlejandroApp.swift in Sources */,
+				E54297652B162BC200ABBFD3 /* AssortmentView.swift in Sources */,
+				E542976B2B1659A500ABBFD3 /* MemberView.swift in Sources */,
+				E54297612B14F63500ABBFD3 /* CircleImage.swift in Sources */,
+				E50AEF4B2B189B0E002A1C36 /* MoodSelectorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +305,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CafeAlejandro/Preview Content\"";
-				DEVELOPMENT_TEAM = 99E8JV9N39;
+				DEVELOPMENT_TEAM = 78D34TYQLZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -285,8 +322,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akqa.CafeAlejandro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akqa.cafealejandrodebug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CafeAlejandro/Preview Content\"";
-				DEVELOPMENT_TEAM = 99E8JV9N39;
+				DEVELOPMENT_TEAM = 78D34TYQLZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -344,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E50AEF592B18F7CF002A1C36 /* XCRemoteSwiftPackageReference "SwiftySlack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mbarnach/SwiftySlack";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E50AEF5A2B18F7CF002A1C36 /* SwiftySlack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E50AEF592B18F7CF002A1C36 /* XCRemoteSwiftPackageReference "SwiftySlack" */;
+			productName = SwiftySlack;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E54297472B14B0F900ABBFD3 /* Project object */;
 }
