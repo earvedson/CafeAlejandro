@@ -173,7 +173,7 @@ func sendOrder(order: Order) {
      */
     let message = Message(blocks: blocks, to: "cafe-alejandro", alternateText: "New order")
     print(message.text)
-    let url = URL(string: "https://hooks.slack.com/services/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")!
+    let url = URL(string: "secret")!
     var request = URLRequest(url: url)
     request.httpMethod = "POST"
     request.setValue("application/json", forHTTPHeaderField: "Content-Type")
